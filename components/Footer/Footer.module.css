@@ -1,0 +1,6 @@
+.nav_down {
+    position: fixed;
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+    width: 100%;
+}
