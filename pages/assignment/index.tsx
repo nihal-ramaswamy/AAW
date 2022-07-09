@@ -1,13 +1,14 @@
 import type { NextPage } from "next";
-import Footer from "../../components/Footer/Footer.components";
-import NavBar from "../../components/NavBar/NavBar.components";
+import PublicKey from "../../components/Assignment/PublicKey/PublicKey.components";
 
 const Assignment: NextPage = () => {
   return (
     <>
-      <NavBar />
-      <div>Assignment Page</div>
-      <Footer />
+      <div className="flex h-screen justify-center items-center">
+        <div>
+          <PublicKey />
+        </div>
+      </div>
     </>
   );
 };
